@@ -1,11 +1,13 @@
 import React from 'react'
-import { View, Text, StyleSheet, SafeAreaView } from 'react-native'
+import { View, Text } from 'react-native'
+import MusicPlayer from './components/MusicPlayer'
 
 const App = () => {
   return (
-    <SafeAreaView>
-      <Text>hello world</Text>
-    </SafeAreaView>
+    <MusicPlayer/>
   )
 }
+
+export default App
+
 
